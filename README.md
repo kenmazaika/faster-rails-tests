@@ -19,13 +19,10 @@ Step 2 - Use a performance tweaked verison of ruby locally (system change)
 
 Follow [Funny Falcon's](https://gist.github.com/funny-falcon/4755042) guides to performance improvements.
 
-[My Patch](https://gist.github.com/kenmazaika/4963702) will work with CM2.
-
-
 Step 3 - Allow garbage to be picked up (code change)
 ------
 
-Follow [Jamis' Guide](http://37signals.com/svn/posts/2742-the-road-to-faster-tests) to faster tests for, `scrub_instance_variables`.  [code](https://github.com/where/campaign_manager/commit/d42a055f8cef426a57216767c25eabff4470b62a).
+Follow [Jamis' Guide](http://37signals.com/svn/posts/2742-the-road-to-faster-tests) to faster tests for, `scrub_instance_variables`.  [code](https://gist.github.com/kenmazaika/5347112).
 
 Step 4 - MySQL Tuning (system change)
 -------
